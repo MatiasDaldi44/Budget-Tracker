@@ -18,7 +18,6 @@ self.addEventListener("install", function (evt) {
             return cache.addAll(FILES_TO_CACHE);
         })
     );
-
     self.skipWaiting();
 });
 
@@ -35,7 +34,6 @@ self.addEventListener("activate", function (evt) {
             );
         })
     );
-
     self.clients.claim();
 });
 
