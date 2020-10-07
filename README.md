@@ -8,4 +8,4 @@ An application where the user can add expenses and deposits to their budget with
 npm i
 
 ## Questions
-
+If you have any questions about the repo, you can open an issue, or contact matiasdaldi44 directly at matiasdaldi@gmail.com.
