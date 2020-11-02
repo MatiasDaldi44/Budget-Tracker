@@ -1,4 +1,3 @@
-
 const FILES_TO_CACHE = [
     "/index.html",
     "/styles.css",
@@ -19,7 +18,6 @@ self.addEventListener("install", function (evt) {
             return cache.addAll(FILES_TO_CACHE);
         })
     );
-
     self.skipWaiting();
 });
 
@@ -36,7 +34,6 @@ self.addEventListener("activate", function (evt) {
             );
         })
     );
-
     self.clients.claim();
 });
 
@@ -57,7 +54,6 @@ self.addEventListener("fetch", function (evt) {
                     });
             }).catch(err => console.log(err))
         );
-
         return;
     }
 
